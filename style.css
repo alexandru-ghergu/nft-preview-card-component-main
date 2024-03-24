@@ -56,7 +56,7 @@ main {
 .nft-founder-container,
 hr {
     width: 18.875rem;
-    margin: 20px auto;
+    margin: 22px auto;
     display: flex;
     align-items: center;
     justify-content: start;
@@ -111,7 +111,7 @@ hr {
 
 .nft-description-container {
     font-weight: 300;
-    color: hsl(215, 51%, 70%, 0.8);
+    color: hsl(215, 51%, 70%);
 }
 
 .nft-left-stats-container-description {
@@ -121,7 +121,7 @@ hr {
 
 .nft-right-stats-container-description {
     font-weight: 400;
-    color: hsl(215, 51%, 70%, 0.8);
+    color: hsl(215, 51%, 70%);
 }
 
 hr {
@@ -130,7 +130,7 @@ hr {
 
 .nft-founder-description-container {
     font-weight: 400;
-    color: hsl(215, 51%, 70%, 0.8);
+    color: hsl(215, 51%, 70%);
 }
 
 .nft-founder-description-container span {
@@ -139,6 +139,10 @@ hr {
 
 .nft-founder-container img {
     border: 1.5px solid hsl(0, 0%, 100%);
+}
+
+.nft-founder-container {
+    font-size: initial;
 }
 
 @media only screen and (max-width: 360px) {
